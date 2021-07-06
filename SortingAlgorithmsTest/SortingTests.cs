@@ -48,5 +48,35 @@ namespace SotringAlgorithmsTest
         {
             RunSortTest(Sorting.BubbleSort);
         }
+
+        [Test]
+        public void SelectionSort_ValidInput_SortedInput()
+        {
+            RunSortTest(Sorting.SelectionSort);
+        }
+
+        [Test]
+        public void InsertionSort_ValidInput_SortedInput()
+        {
+            RunSortTest(Sorting.InsertionSort);
+        }
+
+        [Test]
+        public void ShellSort_ValidInput_SortedInput()
+        {
+            RunSortTest(Sorting.ShellSort);
+        }
+
+        [Test]
+        public void MergeSort_ValidInput_SortedInput()
+        {
+            RunSortTest(Sorting.MergeSort);
+        }
+
+        [Test]
+        public void QuickSort_ValidInput_SortedInput()
+        {
+            RunSortTest(Sorting.QuickSort);
+        }
     }
 }
