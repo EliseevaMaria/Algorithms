@@ -2,7 +2,7 @@
 using SortingAlgorithms;
 using System;
 
-namespace SotringAlgorithmsTest
+namespace AlgorithmsTest
 {
     [TestFixture]
     public class SortingTests

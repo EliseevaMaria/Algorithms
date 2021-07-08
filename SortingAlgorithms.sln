@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{BFA23F0F-6279-47B2-B333-86DAF433A198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "SortingAlgorithms\Algorithms.csproj", "{BFA23F0F-6279-47B2-B333-86DAF433A198}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithmsTest", "SortingAlgorithmsTest\SortingAlgorithmsTest.csproj", "{EF9A48B9-C59E-4B06-9B1E-F36FD79330B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsTest", "SortingAlgorithmsTest\AlgorithmsTest.csproj", "{EF9A48B9-C59E-4B06-9B1E-F36FD79330B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{16F4E585-D6B1-4110-9E18-35C38A1B6C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{16F4E585-D6B1-4110-9E18-35C38A1B6C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresTest", "DataStructuresTest\DataStructuresTest.csproj", "{E1884D34-0EF2-4D54-9AFC-E1258E4C9197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresTest", "DataStructuresTest\DataStructuresTest.csproj", "{E1884D34-0EF2-4D54-9AFC-E1258E4C9197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
