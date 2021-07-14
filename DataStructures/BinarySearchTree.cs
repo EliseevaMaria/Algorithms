@@ -43,5 +43,44 @@ namespace DataStructures
 
             return Enumerable.Empty<T>();
         }
+
+        public void Remove(T value)
+        {
+            if (root == null)
+                throw new InvalidOperationException();
+
+            root = Remove(root, value);
+        }
+
+        private TreeNode<T> Remove(TreeNode<T> root, T value)
+        {
+            if (root == null)
+                return null;
+
+            int compare = value.CompareTo(root.Value);
+            if (compare < 0)
+            {
+                root.Left = Remove(root.Left, value);
+            }
+            else if (compare > 0)
+            {
+                root.Right = Remove(root.Right, value);
+            }
+            else
+            {
+                if (root.Left == null)
+                {
+                    return root.Right;
+                }
+                if (root.Right == null)
+                {
+                    return root.Left;
+                }
+
+                root.Value = root.Right.Min();
+                root.Right = Remove(root.Right, root.Value);
+            }
+            return root;
+        }
     }
 }
